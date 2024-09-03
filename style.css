@@ -68,11 +68,13 @@ main {
     max-width: 50%;
     margin: auto;
     margin-top: 2%;
+    text-align: center;
 }
 
 .paragrafo_main {
     margin-bottom: 20px;
     font-size: 1.1rem;
+    text-align: left;
 }
 
 footer {
@@ -92,7 +94,7 @@ footer {
     color: white;
 }
 
-span {
+.texto {
     font-weight: bold;
     font-size: 1.5rem;
 }
@@ -103,6 +105,31 @@ span {
 .propaganda:visited{
     text-decoration: none;
     color: #fbb030;
+}
+.foto{
+    border-radius: 10px;
+    max-width: 15rem;
+}
+
+.final{
+    text-align: right;
+    font-style: italic;
+}
+.qr{
+    max-width: 10rem;
+}
+#poema{
+    text-align: center;
+    margin: auto;
+    max-width: 50%;
+}
+#centro{
+    text-align: center;
+}
+
+.grafo{
+    margin-bottom: 5rem;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1030px) {
